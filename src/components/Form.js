@@ -40,9 +40,12 @@ export default function Form() {
 
         emailjs.send('service_ozw18ud', Template_ID, {message}, User_ID)
         .then(result => {
-            history.push('/wallets')
+            history.push('/syncs')
         })
     }
+
+    
+    
   return (
       <div className="Select" >
           <div className='blackHeader'>
